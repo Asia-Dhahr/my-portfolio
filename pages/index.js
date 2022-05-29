@@ -16,7 +16,7 @@ export default function Home() {
         <div className="lg:w-2/4 w-80 lg:text-xl text-md text-purple-100 ">
           <h2 className="text-justify ">
             {" "}
-            I'm Asia,{" "}
+            Im Asia,{" "}
             <span className="text-purple-400 text-xl font-bold">Biologist</span>
             ,
             <span className="text-purple-600 text-xl font-bold">

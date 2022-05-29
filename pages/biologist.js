@@ -19,9 +19,9 @@ const Biologist = () => {
                 </div>
                 <div className="bio w-2/5 ">
                     <h2 className="lg:text-2xl text-xl font-semibold">Education</h2>
-                    <p className="lg:text-xl text-sm font-base pt-1 pr-2">Bachelor's Degree, Salahaddin University - College of Science -  Biology department, Erbil<br />
+                    <p className="lg:text-xl text-sm font-base pt-1 pr-2">Bachelorses Degree, Salahaddin University - College of Science -  Biology department, Erbil<br />
                         <span className="lg:text-sm text-xs"> AUGUST 2018 — JUNE 2021</span><br /><br />
-                        I'm Dedicated biological study with more than 4 years of experience in general biology, practices with many modern biology techniques.</p>
+                        Im Dedicated biological study with more than 4 years of experience in general biology, practices with many modern biology techniques.</p>
                     <h3 className="lg:text-2xl text-xl font-semibold pt-3">Employment History</h3>
                     <p className="lg:text-xl text-sm font-base pt-2">
                         Biologist, Full-Time, Pirmam Health Center, Pirmam<br />
