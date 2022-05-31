@@ -80,7 +80,7 @@
      border-color: #848572;
  }
  
- .p-2 {
+ .gur {
      border-color: #DC9293;
  }
  
@@ -90,6 +90,18 @@
  
  .h2 {
      color: #6e7259;
+ }
+ 
+ .no-scroll {
+     -ms-overflow-style: none;
+     /* IE and Edge */
+     scrollbar-width: none;
+     /* Firefox */
+ }
+ 
+ .no-scroll::-webkit-scrollbar {
+     display: none;
+     /* Chrome, Safari and Opera */
  }
  /* --------------------------------------------web  */
  
