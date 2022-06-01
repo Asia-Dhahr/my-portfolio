@@ -109,9 +109,9 @@ const WebDeveloper = () => {
             {/* ====================================================p3  */}
             <div className="h-[700px] md:h-[770px] lg:h-screen bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')] ">
                 <div className="flex justify-center">
-                    <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:mt-10 md:mt-20 sm:mt-14 mt-20 lg:mb-14 md:mb-8 sm:mb-7 mb-7">
+                    <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:mt-20 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-10 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>
-                        <h2 className="lg:mx-12 md:mx-10 sm:mx-6 mx-10 text-blue-50 border-b-3 lg:text-xl md:text-xl sm:text-base text-lg  font-semibold lg:mt-16 md:mt-8 sm:mt-8 mt-10"><span className="span">Program</span> Skills</h2>
+                        <h2 className="lg:mx-12 md:mx-10 sm:mx-6 mx-10 text-blue-50 border-b-3 lg:text-xl md:text-xl sm:text-base text-lg  font-semibold lg:mt-8 md:mt-8 sm:mt-8 mt-10"><span className="span">Program</span> Skills</h2>
                     </section>
                 </div>
                 <div className="flex justify-center mt-2">

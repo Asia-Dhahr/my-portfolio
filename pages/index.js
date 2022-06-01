@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 export default function Home() {
   const router = useRouter();
   return (
-    <div className=" lg:bg-cover bg-no-repeat md:bg-cover sm:bg-cover bg-center h-screen overflow-auto bg-fix lg:bg-[url('/bg.png')] sm:bg-[url('/bg2.png')] md:bg-[url('/bg.png')] bg-[url('/bg2.png')] bg-cover">
+    <div className="bg-no-repeat bg-center h-screen overflow-auto bg-fix lg:bg-[url('/bg.png')] sm:bg-[url('/bg.png')] md:bg-[url('/bg.png')] bg-[url('/bg2.png')] bg-cover">
       <div className="flex justify-start lg:ml-10 sm:ml-6 h-fit  w-fit">
         <img className="h-10 sm:h-9 lg:h-20 sm:mt-1 mt-4 lg:mt-6 md:mt-2 md:ml-2 ml-4 object-contain" src="logo.png" />
       </div>
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center items-baseline sm:gap-28 md:gap-28 xl:gap-40 gap-8 lg:mx-18 md:mx-18 mt-24 lg:mt-20 md:mt-10 sm:mt-8 px-5 ">
-        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-16 sm:w-16 h-fit w-24 transition ease-in-out delay-250 place-items-center ">
+        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-16 sm:w-16 h-fit w-24 transition ease-in-out delay-250 place-items-center">
           <img
             src="ar.png"
             className="h-fit lg:w-36 sm:w-14 w-16"
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
         {/* ----------------------------------------  */}
-        <div className="blur-box flex flex-col font-semibold text-purple-100  rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-16 sm:w-16 h-fit w-28 transition ease-in-out delay-250 place-items-center ">
+        <div className="blur-box flex flex-col font-semibold text-purple-100  rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-16 sm:w-16 h-fit w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="wd.png"
             className="h-fit lg:w-36  sm:w-14 w-16 "
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </div>
         {/* ------------------------------------------------  */}
-        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-10 sm:w-10 h-fit w-24 transition ease-in-out delay-250 place-items-center">
+        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-28 md:w-28 sm:h-10 sm:w-14 h-fit w-24 transition ease-in-out delay-250 place-items-center">
           <img
             src="bl.png"
             className="h-fit lg:w-36 sm:w-14 w-[60px] "

@@ -13,28 +13,28 @@ const Biologist = () => {
             <div className="bio lg:text-6xl sm:text-3xl text-2xl text-green-800 font-bold sm:pt-0 pt-5 lg:pl-40 pl-16">
                 <h1>Biologist</h1>
             </div>
-            <div className="bio flex justify-center items-top lg:mt-40 md:mt-14 sm:mt-8 mt-20 mx-5 space-x-4">
+            <div className="bio flex justify-center items-top lg:mt-40 md:mt-14 sm:mt-8 mt-20 mx-5 sm:mx-2 space-x-4">
                 <div className="invisible lg:visible md:visible sm:visible">
-                    <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-44 opacity-80" alt='' />
+                    <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-52 md:h-52 w-0 lg:w-full md:w-full sm:w-full opacity-80" alt='' />
                 </div>
-                <div className="flex  space-x-5">
-                    <div className="flex flex-col lg:w-96 md:w-60 sm:w-60 w-40 text-justify ">
+                <div className="flex flex-col lg:flex-row md:flex-row sm:flex-row lg:space-x-5 md:space-x-5 sm:space-x-5 lg:space-y-0 md:space-y-0 sm:space-y-0 space-y-4">
+                    <div className="flex flex-col lg:w-96 md:w-60 sm:w-60 w-72 text-justify ">
                         <h2 className="lg:text-xl sm:text-lg text-xl font-semibold pb-2">Education</h2>
                         <p className="lg:text-lg md:text-sm text-sm ">Bachelorses Degree, Salahaddin University-College of Science -  Biology department, Erbil<br />
-                            <span className=" text-sm font-thin"> AUGUST 2018 — JUNE 2021</span><br /><br />
+                            <span className=" text-xs font-thin"> AUGUST 2018 — JUNE 2021</span><br /><br />
                             I am Dedicated biological study with more than 4 years of experience in general biology, practices with many modern biology techniques.</p>
                     </div>
-                    <div className="flex flex-col lg:w-96 md:w-56 sm:w-48 w-40 text-justify">
+                    <div className="flex flex-col lg:w-96 md:w-56 sm:w-48 w-72 text-justify">
                         <h3 className="lg:text-xl sm:text-lg text-xl font-semibold pb-2">Employment History</h3>
                         <p className="lg:text-lg md:text-sm text-sm">
                             Biologist, Full-Time, Pirmam Health Center, Pirmam<br />
-                            <span className="text-sm font-thin"> APRIL 2021 — JUNE 2021</span>
+                            <span className="text-xs font-thin"> APRIL 2021 — JUNE 2021</span>
                         </p>
                     </div>
                 </div>
             </div>
             {/* ======================================p2  */}
-            <div className="lg:mt-60 md:mt-12 sm:mt-6 mt-[159px] bg-no-repeat bg-center sm:h-fit lg:h-screen md:h-screen h-[600px] lg:bg-[url('/p3/p3.png')] sm:bg-[url('/p3/p3.png')] md:bg-[url('/p3/p3-2.png')] bg-[url('/p3/p3-3.png')] bg-cover bg-fixed">
+            <div className="lg:mt-56 md:mt-12 sm:mt-6 mt-[140px] bg-no-repeat bg-center sm:h-fit lg:h-screen md:h-screen h-[600px] lg:bg-[url('/p3/p3.png')] sm:bg-[url('/p3/p3.png')] md:bg-[url('/p3/p3-2.png')] bg-[url('/p3/p3-3.png')] bg-cover bg-fixed">
                 <div className="pt-8 lg:ml-40 ml-10 font-medium lg:text-xl md:text-base sm:text-sm text-sm text-[#787d61]">
                     <h1 className="">Some of my activities</h1>
                 </div>
@@ -74,15 +74,34 @@ const Biologist = () => {
             </div>
 
             {/* =============================================p3  */}
-            <div className="bg-no-repeat bg-center h-screen sm:h-fit md:h-screen lg:bg-[url('/p2/p2.png')] sm:bg-[url('/p2/p2-2.png')] md:bg-[url('/p2/p2-2.png')] bg-[url('/p2/p2-3.png')] bg-cover bg-fixed ">
-                <div className="h2 lg:ml-40 mx-8 pt-8 sm:pt-5 lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold"><h2>Plant Classification</h2></div>
-                <div className=" flex lg:flex-row md:flex-row sm:flex-row flex-col justify-center items-center px-2 lg:my-10  mt-10 sm:mt-14 md:mt-0 lg:gap-2 sm:gap-2 sm:h-72">
-                    <div className="gur p-2 lg:ml-40 border-4 border-solid rounded-xl  shadow"><img src="p2/gur2.jpg" className="lg:h-72 md:h-56 h-36 md:w-52 lg:w-72 sm:w-44 w-60 rounded-lg hover:scale-110 transition duration-300 ease-in-out " /></div>
-                    <div className="gur p-2 lg:mt-28 md:mt-10 sm:mt-0 mt-3 border-4 border-solid rounded-xl shadow "><img src="p2/gur3.jpg" className="lg:h-72 md:h-56 h-36 lg:w-64 md:w-52  sm:w-44 w-44 rounded-lg  hover:scale-110 transition duration-300 ease-in-out " /></div>
-                    <div className="gur p-2 lg:mt-48 md:mt-20 sm:mt-0 mt-3 border-4 border-solid rounded-xl shadow"><img src="p2/gur1.jpg" className="lg:h-72 md:h-56 h-36 lg:w-64 md:w-52 sm:w-44 w-40 rounded-lg  hover:scale-110 transition duration-300 ease-in-out " /></div>
+            <div className="bg-no-repeat bg-center h-screen lg:h-screen sm:h-screen md:h-screen lg:bg-[url('/p2/p2.png')] sm:bg-[url('/p2/p2-2.png')] md:bg-[url('/p2/p2-2.png')] bg-[url('/p2/p2-3.png')] bg-cover bg-fixed ">
+                <div className="h2 lg:ml-40 lg:pt-10 mx-8 pt-8 sm:pt-1 lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold"><h2>Plant Classification</h2></div>
+                <div className="no-scroll w-full flex gap-6 snap-x snap-mandatory overflow-x-auto mt-32 lg:mt-48 sm:mt-10 h-fit scrollbar-hide">
+                    <div className="snap-center shrink-0">
+                        <div className="shrink-0 w-4 lg:w-20 sm:w-8"></div>
+                    </div>
+                    <div className="snap-center shrink-0 relative gur p-2 border-4 border-solid rounded-xl h-fit w-fit">
+                        <img className="shrink-0 lg:h-72 md:h-56 h-60 sm:h-48 md:w-52 lg:w-72 sm:w-44 w-72 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur2.jpg" />
+                    </div>
+                    <div className="gur snap-center shrink-0 relative p-2 h-fit border-4 border-solid rounded-xl">
+                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-60 md:w-52 lg:w-72 sm:w-44 w-60 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur3.jpg" />
+                    </div>
+                    <div className="snap-center shrink-0 relative gur p-2 h-fit border-4 border-solid rounded-xl">
+                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-60 md:w-52 lg:w-72 sm:w-44 w-60 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur1.jpg" />
+                    </div>
+                    <div className="snap-center shrink-0">
+                        <div className="shrink-0 w-4 lg:w-20 sm:w-30"></div>
+                    </div>
+                </div>
+                <div className="flex justify-center place-items-center gap-4 lg:mt-36 sm:mt-7 md:mt-14 mt-32 mb-5">
+                    <h1 className="h2 text-sm lg:text-lg">Get in Touch</h1>
+                    <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="mailto:asia.zahir2000@gmail.com"><img src="p2/email.png" className="lg:w-7 lg:h-7 w-6 h-6" /></a></p>
+                    <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.linkedin.com/in/asia-zahir-173074216/"><img src="p2/linkd.png" className="lg:w-7 lg:h-7 w-6 h-6" /></a></p>
                 </div>
             </div>
+
         </div>
+
     )
 }
 
