@@ -8,14 +8,14 @@ const WebDeveloper = () => {
 
     return (
         <div>
-            <div className=" lg:bg-cover bg-no-repeat md:bg-cover sm:bg-cover bg-center h-fit lg:bg-[url('/web/web.png')] sm:bg-[url('/web/web.png')] md:bg-[url('/web/webs.png')] bg-[url('/web/webs.png')] bg-cover">
-                <div className="sm:pt-3 md:pt-0 pt-2 lg:pl-8 md:pl-4 pl-2">
+            <div className="bg-no-repeat bg-center h-fit lg:h-screen lg:bg-[url('/web/web.png')] sm:bg-[url('/web/web.png')] md:bg-[url('/web/webs.png')] bg-[url('/web/webs.png')] bg-cover">
+                <div className="sm:pt-3 md:pt-0 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
                     <ArrowLeftIcon className='icon2 h-12 w-12 p-1 rounded-full border-r-2 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")} />
                 </div>
-                <div className="pt-10 sm:pt-0 md:pl-5 md:pt-6 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-green-400 lg:h-44 md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
-                    <h1 className="pb-1 lg:my-24 lg:ml-3 ml-2 md:ml-0 lg:-rotate-90  border-b-4 w-20 border-sky-600">Web_Developer</h1>
+                <div className="pt-10 sm:pt-0 md:pl-5 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-green-400 lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
+                    <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-sky-600">Web_Developer</h1>
                 </div>
-                <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-10 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
+                <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-0 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
                     <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-2/3 lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
                         <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold "><span className="span ">My story as Designer and</span> Developer</h1>
                         <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation in biology science, I loved to try new skills so, I steped into learn programing,
@@ -28,7 +28,7 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ==========================================p2 */}
-            <div className="  bg-[url('/web/p2.png')] h-fit bg-cover bg-scroll">
+            <div className="  bg-[url('/web/p2.png')] h-fit lg:bg-screen bg-cover bg-scroll">
                 {/* <div className="flex justify-start items-start">
                     <div className="absolute lg:visible md:visible sm:visible invisible " ><img src="web/design.png" className="mandala lg:w-64 lg:h-64 md:w-44 md:h-44 sm:w-40 sm:h-40 h-20  animate-spin" /></div>
                 </div> */}
@@ -107,7 +107,7 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ====================================================p3  */}
-            <div className="h-[700px] md:h-[770px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')] ">
+            <div className="h-[700px] md:h-[770px] lg:h-screen bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')] ">
                 <div className="flex justify-center">
                     <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:mt-10 md:mt-20 sm:mt-14 mt-20 lg:mb-14 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-10 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>

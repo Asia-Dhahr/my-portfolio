@@ -7,8 +7,8 @@ const Artist = () => {
 
   return (
     <div className="bg-[url('/art/art3.png')] lg:bg-[url('/art/art.png')] md:bg-[url('/art/art2.png')] sm:bg-[url('/art/art3.png')] bg-scroll bg-cover overflow-auto h-screen bg-no-repeat" >
-      <div className="pt-1 pl-2">
-        <ArrowLeftIcon className='icon3 h-12 w-12  p-2 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
+      <div className="pt-1 pl-2 lg:pt-2 lg:px-4">
+        <ArrowLeftIcon className='icon3 h-12 w-12 lg:h-16 lg:w-16 p-2 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
         />
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
@@ -17,7 +17,7 @@ const Artist = () => {
           my artworks take inspiration from a life-long obsession with animals and the natural world.
           im deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
         <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
-          <h2 className="pb-1 ">Hover...</h2>
+          <h2 className="pb-1 ">Click...</h2>
         </div>
       </div>
       <div className="cont flex lg:flex-row md:flex-row sm:flex-row flex-col place-items-center gap-2 justify-center ">
@@ -100,9 +100,9 @@ const Artist = () => {
         </div>
       </div>
 
-      <div className="flex justify-center place-items-center gap-4 mt-12 mb-5 text-white">
+      <div className="flex justify-center place-items-center gap-4 mt-12 mb-5 text-rose-100">
         <h1 className="text-sm lg:text-lg">Follow Me</h1>
-        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm___asia/?hl=en"><img src="art/insta.png" className="lg:w-9 h-9 w-6 h-6" /></a></p>
+        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm___asia/?hl=en"><img src="art/insta.png" className="lg:w-9 lg:h-9 w-6 h-6" /></a></p>
       </div>
     </div>
 
