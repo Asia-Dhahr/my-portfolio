@@ -47,9 +47,9 @@ const Artist = () => {
           <div className="heptagon lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28"><img src="art/leaf.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-32 h-32 object-fill object-center" /></div>
         </div>
         <div className="flex justify-center lg:gap-5 md:gap-2 sm:gap-2 gap-2">
-          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28"><img src="art/hand.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-fill object-center" /></div>
-          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28"><img src="art/snake.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-fill object-center" />  </div>
-          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28"><img src="art/rr.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-cover object-center rotate-[30deg] transition duration-300 ease-in-out" /> </div>
+          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-24 h-24"><img src="art/hand.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-fill object-center" /></div>
+          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-24 h-24"><img src="art/snake.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-fill object-center" />  </div>
+          <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-24 h-24"><img src="art/rr.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28 object-cover object-center rotate-[30deg] transition duration-300 ease-in-out" /> </div>
         </div>
         <div className="flex justify-center  lg:gap-5 md:gap-2 sm:gap-2 gap-2 place-items-center">
           <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-28 h-28"><img src="art/ttt.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-36 sm:h-36 w-32 h-32 object-cover object-center rotate-[-10deg] " /></div>
@@ -66,10 +66,10 @@ const Artist = () => {
             <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/mohammad.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-fill object-center rotate-[-40deg] " /></div>
           </div>
           <div className="snap-center shrink-0 relative">
-            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/ttt.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center rotate-[-10deg] " /></div>
+            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/rr.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center rotate-[30deg] " /></div>
           </div>
           <div className="snap-center shrink-0 relative">
-            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/rr.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center rotate-[30deg] " /></div>
+            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/ttt.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center rotate-[-10deg] " /></div>
           </div>
           <div className="snap-center shrink-0 relative">
             <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/snake.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-fill object-center" /></div>
@@ -81,7 +81,7 @@ const Artist = () => {
             <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/leaf.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-fill object-center" /></div>
           </div>
           <div className="snap-center shrink-0 relative">
-            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/skull.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center" /></div>
+            <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/skull.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-cover object-center rotate-[-20deg]" /></div>
           </div>
           <div className="snap-center shrink-0">
             <div className="shrink-0 w-4 sm:w-48"></div>

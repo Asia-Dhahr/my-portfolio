@@ -8,7 +8,7 @@ const Biologist = () => {
         <div>
             <div className="bg-no-repeat bg-center lg:bg-[url('/p1/p1.png')] sm:bg-[url('/p1/p1-3.png')] md:bg-[url('/p1/p1-3.png')] bg-[url('/p1/p1-2.png')] bg-cover bg-fixed h-full  ">
                 <div className="p-2 sm:p-1">
-                    <ArrowLeftIcon className='icon lg:h-20 lg:w-20 md:h-12 md:w-12 sm:h-12 sm:w-12 h-16 w-16 p3 md:p-1 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
+                    <ArrowLeftIcon className='icon lg:h-20 lg:w-20 md:h-12 md:w-12 sm:h-12 sm:w-12 h-12 w-12 p-1 md:p-1 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
                     />
                 </div>
                 <div className="bio lg:text-6xl sm:text-3xl text-2xl text-green-800 font-bold sm:pt-0 pt-1 md:pt-4 lg:pl-40 pl-12">
@@ -78,18 +78,18 @@ const Biologist = () => {
             {/* =============================================p3  */}
             <div className="bg-no-repeat bg-center h-full lg:bg-[url('/p2/p2.png')] sm:bg-[url('/p2/p2-2.png')] md:bg-[url('/p2/p2-2.png')] bg-[url('/p2/p2-3.png')] bg-cover bg-fixed ">
                 <div className="h2 lg:ml-40 lg:pt-10 md:pt-8 mx-8 pt-8 sm:pt-1 lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold"><h2>Plant Classification</h2></div>
-                <div className="no-scroll w-full flex gap-6 snap-x snap-mandatory overflow-x-auto mt-20 lg:mt-48 sm:mt-10 h-fit scrollbar-hide">
+                <div className="no-scroll w-full flex gap-4 snap-x snap-mandatory overflow-x-auto mt-20 lg:mt-48 sm:mt-10 h-fit scrollbar-hide">
                     <div className="snap-center shrink-0">
                         <div className="shrink-0 w-2 lg:w-20 sm:w-8"></div>
                     </div>
                     <div className="snap-center shrink-0 relative gur p-2 border-4 border-solid rounded-xl h-fit w-fit">
-                        <img className="shrink-0 lg:h-72 md:h-56 h-60 sm:h-48 md:w-64 lg:w-72 sm:w-44 w-72 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur2.jpg" />
+                        <img className="shrink-0 lg:h-72 md:h-56 h-52 sm:h-48 md:w-64 lg:w-72 sm:w-44 w-72 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur2.jpg" />
                     </div>
                     <div className="gur snap-center shrink-0 relative p-2 h-fit border-4 border-solid rounded-xl">
-                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-60 md:w-52 lg:w-72 sm:w-44 w-60 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur3.jpg" />
+                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-52 md:w-52 lg:w-72 sm:w-44 w-52 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur3.jpg" />
                     </div>
                     <div className="snap-center shrink-0 relative gur p-2 h-fit border-4 border-solid rounded-xl">
-                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-60 md:w-52 lg:w-72 sm:w-44 w-60 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur1.jpg" />
+                        <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-52 md:w-52 lg:w-72 sm:w-44 w-52 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur1.jpg" />
                     </div>
                     <div className="snap-center shrink-0">
                         <div className="shrink-0 w-4 lg:w-20 sm:w-30"></div>

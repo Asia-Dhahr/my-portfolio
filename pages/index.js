@@ -6,10 +6,10 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className="bg-no-repeat bg-center h-screen overflow-auto bg-fixed lg:bg-[url('/bg.png')] sm:bg-[url('/bg.png')] md:bg-[url('/bgsm.png')] bg-[url('/bg2.png')] bg-cover">
-      <div className="flex justify-start lg:ml-10 sm:ml-6 h-fit  w-fit">
-        <img className="h-10 sm:h-9 md:h-16 lg:h-20 sm:mt-1 mt-2 lg:mt-6 md:mt-4 md:ml-2 ml-4 object-contain" src="logo.png" />
+      <div className="flex justify-start lg:ml-10 sm:ml-6 h-fit w-fit">
+        <img className="h-10 sm:h-9 md:h-16 lg:h-20 sm:mt-1 mt-4 lg:mt-6 md:mt-4 md:ml-2 ml-4 object-contain" src="logo.png" />
       </div>
-      <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-8 sm:gap-2 lg:mt-9 md:mt-10 sm:mt-0 mt-0">
+      <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-8 sm:gap-2 lg:mt-9 md:mt-10 sm:mt-0 mt-12">
         <div className="">
           <h1 className="h1-1 lg:text-8xl sm:text-3xl md:text-6xl font-bold text-3xl ">
             Hello World!
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center sm:gap-28 md:gap-20 xl:gap-40 gap-5 lg:mx-18 md:mx-10 mt-8 lg:mt-20 md:mt-28 sm:mt-8 px-2 ">
+      <div className="flex justify-center sm:gap-28 md:gap-20 xl:gap-40 gap-5 lg:mx-18 md:mx-10 mt-20 lg:mt-20 md:mt-28 sm:mt-8 px-2 ">
         <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-16 sm:w-16 h-28 w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="ar.png"
