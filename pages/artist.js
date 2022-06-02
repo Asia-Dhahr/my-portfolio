@@ -7,13 +7,13 @@ const Artist = () => {
 
   return (
     <div className="bg-[url('/art/art3.png')] lg:bg-[url('/art/art.png')] md:bg-[url('/art/art2.png')] sm:bg-[url('/art/art3.png')] bg-scroll bg-cover overflow-auto h-screen bg-no-repeat" >
-      <div className="pt-1 pl-2 lg:pt-2 lg:px-4">
-        <ArrowLeftIcon className='icon3 h-12 w-12 lg:h-16 lg:w-16 p-2 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
+      <div className="pt-1 pl-2 lg:pt-2 md:pt-4 lg:px-4">
+        <ArrowLeftIcon className='icon3 h-12 w-12 lg:h-16 lg:w-16 md:h-14 md:w-14 p-2 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
         />
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
-        <h1 className="h1 lg:text-6xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
-        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-80">im a self-informed artist, started drawing when I was 12 years old till now.
+        <h1 className="h1 lg:text-6xl md:text-6xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
+        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">im a self-informed artist, started drawing when I was 12 years old till now.
           my artworks take inspiration from a life-long obsession with animals and the natural world.
           im deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
         <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
@@ -101,8 +101,8 @@ const Artist = () => {
       </div>
 
       <div className="flex justify-center place-items-center gap-4 mt-12 mb-5 text-rose-100">
-        <h1 className="text-sm lg:text-lg">Follow Me</h1>
-        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm___asia/?hl=en"><img src="art/insta.png" className="lg:w-9 lg:h-9 w-6 h-6" /></a></p>
+        <h1 className="text-sm lg:text-lg md:text-base">Follow Me</h1>
+        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm___asia/?hl=en"><img src="art/insta.png" className="lg:w-9 lg:h-9 md:h-8 md:w-8 w-6 h-6" /></a></p>
       </div>
     </div>
 

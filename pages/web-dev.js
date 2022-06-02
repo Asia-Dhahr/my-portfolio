@@ -12,8 +12,8 @@ const WebDeveloper = () => {
                 <div className="sm:pt-3 md:pt-0 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
                     <ArrowLeftIcon className='icon2 h-12 w-12 p-1 rounded-full border-r-2 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")} />
                 </div>
-                <div className="pt-10 sm:pt-0 md:pl-5 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-green-400 lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
-                    <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-sky-600">Web_Developer</h1>
+                <div className="pt-10 sm:pt-0 md:pl-5 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-[#45C916] lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
+                    <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-[#328FFC]">Web_Developer</h1>
                 </div>
                 <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-0 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
                     <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-2/3 lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
@@ -50,7 +50,7 @@ const WebDeveloper = () => {
                             </div>
                             <div className="flex justify-end items-center text-center mt-5 gap-6 ">
                                 <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://www.behance.net/elysiumelys"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-6 sm:w-6 h-6 w-6" src="web/behance.png" /></a>
-                                <button className="span lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-12 lg:w-40 md:h-11 md:w-36 sm:h-10 sm:w-36 h-10 w-36 border-4 rounded shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300 "><a href="https://www.behance.net/gallery/134480207/Furniture-shop">View Case Study</a></button>
+                                <button className="span lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-12 lg:w-40 md:h-11 md:w-36 sm:h-10 sm:w-36 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#4cea12] transition duration-300 "><a href="https://www.behance.net/gallery/134480207/Furniture-shop">View Case Study</a></button>
                             </div>
                         </section>
                     </div>
@@ -185,7 +185,7 @@ const WebDeveloper = () => {
 
                 <div className="flex justify-center items-center text-center lg:mt-28 md:mt-[118px]  sm:mt-16 mt-16 sm:mb-8 md:mr-12 gap-6 text-blue-50 ">
                     <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://github.com/Asia-Dhahr"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-7 sm:w-7 h-7 w-7" src="web/github.png" /></a>
-                    <button className="span pb-1 lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
+                    <button className="span pb-1 lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
                 </div>
             </div>
             {/* <div className="bg-[url('/web/p3-3.png')] sm:h-[600px] h-72 bg-cover lg:hidden md:hidden sm:visible visible  bg-no-repeat"></div> */}
