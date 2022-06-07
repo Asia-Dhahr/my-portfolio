@@ -69,7 +69,7 @@ const Biologist = () => {
                         </div>
                         <div className="snap-center shrink-0 relative">
                             <img className="shrink-0 w-80 h-44 sm:w-52 sm:h-32 md:h-48 md:w-64 lg:w-full lg:h-60  rounded-lg shadow-xl bg-[#787d61]" src="/p3/insect2.jpg" />
-                            <div className="absolute top-0 right-0 bottom-0 left-0 w-80 h-44 lg:w-full lg:h-60 md:h-48 md:w-64  sm:w-48 sm:h-32 overflow-hidden bg-fixed opacity-0 hover:opacity-20 transition duration-300 ease-in-out bg-yellow-400"></div>
+                            <div className="absolute top-0 right-0 bottom-0 left-0 w-80 h-44 lg:w-full lg:h-60 md:h-48 md:w-64 sm:w-52 sm:h-32 overflow-hidden bg-fixed opacity-0 hover:opacity-20 transition duration-300 ease-in-out bg-yellow-400"></div>
                         </div>
                         <div className=" snap-center shrink-0 relative">
                             <img className="shrink-0 w-64 h-56 sm:w-44 sm:h-[180px] md:h-[250px] md:w-52 lg:w-full lg:h-72  rounded-lg shadow-xl bg-[#787d61]" src="/p3/insect4.jpg" />
@@ -93,10 +93,10 @@ const Biologist = () => {
                     </div>
                     <div className="absolute top-0 p-4 pb-28 w-full h-full flex justify-between place-items-center z-10 lg:visible md:visible sm:invisible invisible">
                         <button onClick={() => { picsRef.current.scrollLeft = picsRef.current.scrollLeft - 300 }}>
-                            <ChevronLeftIcon className={`lg:text-[#848572] md:text-[#848572] lg:bg-[#E7E3C7] md:bg-[#E7E3C7] sm:text-transparent text-transparent rounded-full w-16 h-16 cursor-pointer lg:shadow md:shadow ${left ? 'visible' : 'invisible'}`} />
+                            <ChevronLeftIcon className={`lg:text-[#848572] md:text-[#848572] lg:bg-[#E7E3C7] md:bg-[#E7E3C7] sm:text-transparent rounded-full lg:w-16 lg:h-16 md:w-16 md:h-16 sm:w-1 sm:h-1 w-1 h-1 cursor-pointer lg:shadow md:shadow ${left ? 'visible' : 'invisible'}`} />
                         </button>
                         <button onClick={() => { picsRef.current.scrollLeft = picsRef.current.scrollLeft + 300 }}>
-                            <ChevronRightIcon className={`lg:text-[#848572] md:text-[#848572]  lg:bg-[#E7E3C7] md:bg-[#E7E3C7] sm:text-transparent text-transparent rounded-full w-16 h-16 cursor-pointer lg:shadow md:shadow ${right ? 'visible' : 'invisible'}`} />
+                            <ChevronRightIcon className={`lg:text-[#848572] md:text-[#848572]  lg:bg-[#E7E3C7] md:bg-[#E7E3C7] sm:text-transparent text-transparent rounded-full lg:w-16 lg:h-16 md:w-16 md:h-16 sm:w-1 sm:h-1 w-1 h-1 cursor-pointer lg:shadow md:shadow ${right ? 'visible' : 'invisible'}`} />
                         </button>
                     </div>
 
