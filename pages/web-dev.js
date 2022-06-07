@@ -12,7 +12,7 @@ const WebDeveloper = () => {
                 <div className="sm:pt-3 md:pt-0 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
                     <ArrowLeftIcon className='icon2 h-12 w-12 p-1 rounded-full border-r-2 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")} />
                 </div>
-                <div className="pt-10 sm:pt-0 md:pl-5 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-[#45C916] lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
+                <div className="pt-10 sm:pt-0 md:pl-5 sm:ml-3 ml-2 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-[#45C916] lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
                     <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-[#328FFC]">Web_Developer</h1>
                 </div>
                 <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-0 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
@@ -32,7 +32,7 @@ const WebDeveloper = () => {
                 {/* <div className="flex justify-start items-start">
                     <div className="absolute lg:visible md:visible sm:visible invisible " ><img src="web/design.png" className="mandala lg:w-64 lg:h-64 md:w-44 md:h-44 sm:w-40 sm:h-40 h-20  animate-spin" /></div>
                 </div> */}
-                <div className="flex justify-center place-items-center text-white mx-4 md:pt-20 sm:pt-10 pt-20">
+                <div className="flex justify-center place-items-center text-white mx-4 md:pt-20 sm:pt-20 pt-20">
                     <div className="lg:flex md:flex sm:flex grid justify-center place-items-center lg:gap-36 md:gap-10 sm:gap-5 gap-5 mt-0 sm:mx-3">
                         <section className="text-blue-50 lg:w-1/4 md:w-2/5 sm:w-80 w-3/4  ">
                             <div className="ux lg:mb-20 md:mb-10 sm:mb-10 mb-7">
@@ -46,7 +46,7 @@ const WebDeveloper = () => {
                         </section>
                         <section className="">
                             <div className="span border-4 ">
-                                <img className="lg:h-80 md:h-64 sm:h-52 h-44 object-contain p-1" src="web/furnilax.jpg" />
+                                <a href="https://www.behance.net/gallery/134480207/Furniture-shop"><img className="lg:h-80 md:h-64 sm:h-40 h-44 object-contain p-1" src="web/furnilax.jpg" /></a>
                             </div>
                             <div className="flex justify-end items-center text-center mt-5 gap-6 ">
                                 <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://www.behance.net/elysiumelys"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-6 sm:w-6 h-6 w-6" src="web/behance.png" /></a>
@@ -65,40 +65,40 @@ const WebDeveloper = () => {
                         <section className="flex flex-col lg:gap-6 md:gap-6 sm:gap-6 gap-4">
                             <div className=" display-block text-blue-50">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Figma</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-11/12 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-11/12 md:w-64 sm:w-[220px] w-[135px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Adobe XD</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-72 md:w-60 sm:w-52 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-72 md:w-56 sm:w-44 w-[118px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Krita</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-56 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px]lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-72 md:w-60 sm:w-48 w-[118px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                         </section>
                         <section className="flex flex-col lg:gap-6 md:gap-6 sm:gap-6 gap-4">
-                            <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
-                                <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-xs">wireframing & prototyping</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-11/12 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                            <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10 whitespace-nowrap">
+                                <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm whitespace-nowrap">wireframing & prototyping</h1>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-11/12 md:w-64 sm:w-[220px] w-[135px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Visual communication</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-80 md:w-64 sm:w-56 w-[135px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Analytical</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-72 md:w-60 sm:w-52 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-72 md:w-52 sm:w-52 w-[135px] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
 
@@ -119,31 +119,31 @@ const WebDeveloper = () => {
                         <section className="flex flex-col lg:gap-6 md:gap-6 sm:gap-6 gap-4">
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-0 ml-0">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Next Js</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-80 md:w-64 sm:w-52 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-0 ml-0">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">React</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-72 md:w-60 sm:w-52 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-[280px] md:w-52 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-0 ml-0">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">HTML</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-56 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-[350px] md:w-64 sm:w-56 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-0 ml-0">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">CSS</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-72 md:w-60 sm:w-52 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-[280px] md:w-56 sm:w-44 w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-0 ml-0">
-                                <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Tailwind Css</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Tailwind CSS</h1>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
                                     <div className="rate lg:w-80 md:w-64 sm:w-56 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
@@ -151,32 +151,32 @@ const WebDeveloper = () => {
                         <section className="flex flex-col lg:gap-6 md:gap-6 sm:gap-6 gap-4">
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-xs">JavaScript</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-72 md:w-60 sm:w-52 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-[280px] md:w-52 sm:w-52 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Nodejs / Express</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-68 md:w-56 sm:w-48 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-52 md:w-56 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">MySQL / Mongodb</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-56 md:w-54 sm:w-48 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-56 md:w-52 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Github</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-72 md:w-60 sm:w-[210px] w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10 ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Terminal</h1>
-                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[37] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-80 md:w-64 sm:w-60 w-36 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
+                                    <div className="rate lg:w-80 md:w-60 sm:w-[210px] w-32 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                         </section>

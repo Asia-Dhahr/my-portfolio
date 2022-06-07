@@ -7,20 +7,20 @@ const Artist = () => {
 
   return (
     <div className="bg-[url('/art/art3.png')] lg:bg-[url('/art/art.png')] md:bg-[url('/art/art2.png')] sm:bg-[url('/art/art3.png')] bg-scroll bg-cover overflow-auto h-screen bg-no-repeat" >
-      <div className="pt-1 pl-2 lg:pt-2 md:pt-4 lg:px-4">
+      <div className="pt-1 pl-2 lg:pt-2 md:pt-4 lg:px-4 sm:p-3">
         <ArrowLeftIcon className='icon3 h-12 w-12 lg:h-16 lg:w-16 md:h-14 md:w-14 p-2 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
         />
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
         <h1 className="h1 lg:text-6xl md:text-6xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
-        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">im a self-informed artist, started drawing when I was 12 years old till now.
+        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am self-informed artist, started drawing when I was 12 years old till now.
           my artworks take inspiration from a life-long obsession with animals and the natural world.
           im deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
-        <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
+        {/* <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
           <h2 className="pb-1 ">Click...</h2>
-        </div>
+        </div> */}
       </div>
-      <div className="cont flex lg:flex-row md:flex-row sm:flex-row flex-col place-items-center gap-2 justify-center ">
+      <div className="cont flex lg:flex-row md:flex-row sm:flex-row flex-col place-items-center gap-2 justify-center pt-6">
         <div className="flex gap-2">
           <img src="art/2.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56 duration-500" />
           <img src="art/3.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover " />
