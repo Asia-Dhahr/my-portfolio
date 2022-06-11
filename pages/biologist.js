@@ -22,7 +22,7 @@ const Biologist = () => {
     }
     return (
         <div>
-            <div className="bg-no-repeat bg-center lg:bg-[url('/p1/p1.png')] sm:bg-[url('/p1/p1-3.png')] md:bg-[url('/p1/p1-3.png')] bg-[url('/p1/p1-2.png')] bg-cover bg-fixed h-full  ">
+            <div className="bg-no-repeat bg-center lg:bg-[url('/p1/p1.png')] sm:bg-[url('/p1/p1-3.png')] md:bg-[url('/p1/p1-3.png')] bg-[url('/p1/p1-2.png')] bg-cover bg-fixed h-full lg:h-screen  ">
                 <div className="p-2 lg:pt-4 lg:pl-4 sm:p-3 sm:pb-8">
                     <ArrowLeftIcon className='icon lg:h-16 lg:w-16 md:h-12 md:w-12 sm:h-12 sm:w-12 h-12 w-12 p-1 md:p-1 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
                     />
@@ -30,15 +30,15 @@ const Biologist = () => {
                 <div className="bio lg:text-6xl sm:text-3xl text-2xl text-green-800 font-bold sm:pt-0 pt-8 md:pt-4 lg:pl-40 pl-12">
                     <h1>Biologist</h1>
                 </div>
-                <div className="bio flex justify-center items-top lg:mt-32 md:mt-14 sm:mt-8 mt-10 mx-5 sm:mx-2 space-x-4 h-fit pb-20 lg:pb-32 ">
+                <div className="bio flex justify-center items-top lg:mt-40 md:mt-14 sm:mt-8 mt-10 mx-5 sm:mx-2 space-x-4 h-fit pb-20 lg:pb-32 ">
                     <div className="invisible lg:visible md:visible sm:visible">
-                        <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-48 md:h-52 w-0 lg:w-full md:w-full sm:w-32 opacity-80" alt='' />
+                        <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-48 md:h-56 w-0 lg:w-full md:w-full sm:w-32 opacity-80" alt='' />
                     </div>
                     <div className="flex flex-col lg:flex-row md:flex-row sm:flex-row lg:space-x-5 md:space-x-5 sm:space-x-5 lg:space-y-0 md:space-y-0 sm:space-y-0 space-y-4">
                         <div className="flex flex-col lg:w-96 md:w-60 sm:w-60 w-72 text-justify ">
                             <h2 className="lg:text-xl sm:text-lg text-lg font-semibold pb-2">Education</h2>
                             <p className="lg:text-lg md:text-sm text-sm ">Bachelorses Degree, Salahaddin University-College of Science -  Biology department, Erbil<br />
-                                <span className=" text-xs font-thin"> AUGUST 2018 — JUNE 2021</span><br /><br />
+                                <span className=" text-xs font-thin "> AUGUST 2018 — JUNE 2021</span><br /><br /><br />
                                 I am Dedicated biological study with more than 4 years of experience in general biology, practices with many modern biology techniques.</p>
                         </div>
                         <div className="flex flex-col lg:w-96 md:w-56 sm:w-48 w-72 text-justify">
@@ -112,7 +112,7 @@ const Biologist = () => {
                         <div className="shrink-0 w-2 lg:w-20 sm:w-8"></div>
                     </div>
                     <div className="snap-center shrink-0 relative gur p-2 border-4 border-solid rounded-xl h-fit w-fit">
-                        <img className="shrink-0 lg:h-72 md:h-56 h-52 sm:h-48 md:w-64 lg:w-72 sm:w-52 w-64 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur2.jpg" />
+                        <img className="shrink-0 lg:h-72 md:h-56 h-52 sm:h-48 md:w-64 lg:w-[340px] sm:w-52 w-64 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur2.jpg" />
                     </div>
                     <div className="gur snap-center shrink-0 relative p-2 h-fit border-4 border-solid rounded-xl">
                         <img className="shrink-0 lg:h-72 md:h-56 sm:h-48 h-52 md:w-52 lg:w-72 sm:w-44 w-52 rounded-lg hover:scale-110 transition duration-300 ease-in-out" src="p2/gur3.jpg" />

@@ -33,8 +33,8 @@ const WebDeveloper = () => {
                     <div className="absolute lg:visible md:visible sm:visible invisible " ><img src="web/design.png" className="mandala lg:w-64 lg:h-64 md:w-44 md:h-44 sm:w-40 sm:h-40 h-20  animate-spin" /></div>
                 </div> */}
                 <div className="flex justify-center place-items-center text-white mx-4 md:pt-28 sm:pt-20 pt-20">
-                    <div className="lg:flex md:flex sm:flex grid justify-center place-items-center lg:gap-36 md:gap-10 sm:gap-5 gap-5 mt-0 sm:mx-3">
-                        <section className="text-blue-50 lg:w-1/4 md:w-2/5 sm:w-80 w-3/4  ">
+                    <div className="lg:flex md:flex sm:flex grid justify-center place-items-center lg:gap-10 md:gap-10 sm:gap-5 gap-5 mt-0 sm:mx-3">
+                        <section className="text-blue-50 lg:w-1/3 md:w-2/5 sm:w-80 w-3/4  ">
                             <div className="ux lg:mb-20 md:mb-10 sm:mb-10 mb-7">
                                 <h1 className="font-semibold lg:text-2xl md:text-2xl sm:text-2xl text-xl">
                                     UI/UX Designer
