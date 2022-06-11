@@ -19,7 +19,7 @@ const WebDeveloper = () => {
                     <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-2/3 lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
                         <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold "><span className="span ">My story as Designer and</span> Developer</h1>
                         <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation in biology science, I loved to try new skills so, I steped into learn programing,
-                            and started as UI/UX. Participated in we-code UI/UX bootcamp. It was a very good start for me.Then i tried to learn front and back-end developer,
+                            and started as UI/UX.  First participated in we-code UI/UX bootcamp. It was a very good start for me.Then i tried to learn front and back-end developer,
                             it was really interesting. And I developed my portfolio as first project.</p>
                     </div>
                     <div className="">
@@ -50,7 +50,7 @@ const WebDeveloper = () => {
                             </div>
                             <div className="flex justify-end items-center text-center mt-5 gap-6 ">
                                 <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://www.behance.net/elysiumelys"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-6 sm:w-6 h-6 w-6" src="web/behance.png" /></a>
-                                <button className="span lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-12 lg:w-40 md:h-11 md:w-36 sm:h-10 sm:w-36 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#4cea12] transition duration-300 "><a href="https://www.behance.net/gallery/134480207/Furniture-shop">View Case Study</a></button>
+                                <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-12 lg:w-40 md:h-11 md:w-36 sm:h-10 sm:w-36 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#4cea12] transition duration-300 "><a href="https://www.behance.net/gallery/134480207/Furniture-shop">View Case Study</a></button>
                             </div>
                         </section>
                     </div>
@@ -158,13 +158,13 @@ const WebDeveloper = () => {
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">Nodejs / Express</h1>
                                 <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3 rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-52 md:w-56 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                    <div className="rate lg:w-52 md:w-52 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-sm">MySQL / Mongodb</h1>
                                 <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-56 md:w-52 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                    <div className="rate lg:w-52 md:w-52 sm:w-44 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10">
@@ -185,7 +185,7 @@ const WebDeveloper = () => {
 
                 <div className="flex justify-center items-center text-center lg:mt-28 md:mt-[118px]  sm:mt-16 mt-16 sm:mb-8 md:mr-12 gap-6 text-blue-50 ">
                     <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://github.com/Asia-Dhahr"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-7 sm:w-7 h-7 w-7" src="web/github.png" /></a>
-                    <button className="span pb-1 lg:text-lg md:text-base sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
+                    <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
                 </div>
             </div>
             {/* <div className="bg-[url('/web/p3-3.png')] sm:h-[600px] h-72 bg-cover lg:hidden md:hidden sm:visible visible  bg-no-repeat"></div> */}

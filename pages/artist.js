@@ -92,7 +92,7 @@ const Artist = () => {
 
 
       {/* ------------------------------------------------------------------     */}
-      <div className="  lg:mt-60 md:mt-52 sm:mt-20 mt-28 lg:mb-36 md:mb-36 sm:mb-20 mb-5 ">
+      <div className="  lg:mt-60 md:mt-52 sm:mt-20 mt-20 lg:mb-36 md:mb-36 sm:mb-20 mb-5 ">
         <div className="tazhib-img flex lg:flex-row md:flex-row sm:flex-row flex-col justify-center place-items-center lg:gap-5 md:gap-5 sm:gap-2 space-y-5">
           <img src="art/tazhib.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-44 sm:h-44 w-44 h-44 object-fill mt-5" />
           <img src="art/tazhib2.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-44 sm:h-44 w-44 h-44 object-cover" />
