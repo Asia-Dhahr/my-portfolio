@@ -33,24 +33,24 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center sm:gap-20 md:gap-20 xl:gap-40 gap-5 lg:mx-18 md:mx-10 mt-20 lg:mt-20 md:mt-28 sm:mt-8 px-2 ">
-        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
+      <div className="flex justify-center sm:gap-20 md:gap-20 xl:gap-40  gap-5 lg:mx-18 md:mx-10 mt-20 lg:mt-20 md:mt-28 sm:mt-8 px-2 place-items-center ">
+        <div className="blur-box flex flex-col justify-center font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="ar.png"
             className="h-fit lg:w-36 md:w-28 sm:w-14 w-16"
             onClick={() => router.push("/artist")}
           />
-          <div className="lg:text-2xl md:text-lg sm:text-xs text-center text-sm">
+          <div className="lg:text-2xl md:text-lg sm:text-xs text-center text-sm pb-4">
             <Link className="" href="/artist">
               Artist
             </Link>
           </div>
         </div>
         {/* ----------------------------------------  */}
-        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
+        <div className="blur-box flex flex-col justify-center font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="wd.png"
-            className="h-fit lg:w-36 lg:h-40 md:w-28 md:h-32 sm:w-14 w-16 mt-1"
+            className="h-fit lg:w-36 lg:h-40 md:w-28 md:h-32 sm:w-14 w-16"
             onClick={() => router.push("/web-dev")}
           />
           <div className="lg:text-2xl md:text-lg text-center sm:text-xs text-sm pt-2  whitespace-nowrap">
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </div>
         {/* ------------------------------------------------  */}
-        <div className="blur-box flex flex-col font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
+        <div className="blur-box flex flex-col justify-center font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-48 md:w-48 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="bl.png"
             className="h-fit lg:w-36 md:w-28 sm:w-14 w-[60px]"
