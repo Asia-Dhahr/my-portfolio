@@ -107,7 +107,7 @@ const Biologist = () => {
             {/* =============================================p3  */}
             <div className="bg-no-repeat bg-center h-full lg:bg-[url('/p2/p2.png')] sm:bg-[url('/p2/p2-2.png')] md:bg-[url('/p2/p2-2.png')] bg-[url('/p2/p2-3.png')] bg-cover bg-fixed ">
                 <div className="h2 lg:ml-40 lg:pt-10 md:pt-8 mx-8 pt-8 sm:pt-1 lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold"><h2>Plant Classification</h2></div>
-                <div className="no-scroll w-full flex lg:justify-center gap-4 snap-x snap-mandatory overflow-x-auto mt-20 lg:mt-48 sm:mt-10 h-fit scrollbar-hide">
+                <div className="no-scroll w-full flex lg:justify-center lg:gap-4 md:gap-4 sm:gap-4 gap-3 snap-x snap-mandatory overflow-x-auto mt-20 lg:mt-48 sm:mt-10 h-fit scrollbar-hide">
                     <div className="snap-center shrink-0">
                         <div className="shrink-0 w-2 lg:w-20 sm:w-8"></div>
                     </div>

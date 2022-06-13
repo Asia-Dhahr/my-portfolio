@@ -15,7 +15,7 @@ const Artist = () => {
         <h1 className="h1 lg:text-6xl md:text-6xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
         <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am self-informed artist, started drawing when I was 12 years old till now.
           my artworks take inspiration from a life-long obsession with animals and the natural world.
-          im deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
+          I am deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
         {/* <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
           <h2 className="pb-1 ">Click...</h2>
         </div> */}
@@ -60,7 +60,7 @@ const Artist = () => {
 
         <div className="no-scroll absolute w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14 mt-10 sm:mt-10 scrollbar-hide lg:hidden md:hidden sm:visible visible">
           <div className="snap-center shrink-0">
-            <div className="shrink-0 w-10 sm:w-40 "></div>
+            <div className="shrink-0 w-6 sm:w-20 "></div>
           </div>
           <div className="snap-center shrink-0 relative">
             <div className="heptagon shadow-2xl lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64"><img src="art/mohammad.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-60 sm:h-60 w-64 h-64 object-fill object-center rotate-[-40deg] " /></div>

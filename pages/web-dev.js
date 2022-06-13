@@ -16,8 +16,8 @@ const WebDeveloper = () => {
                     <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-[#328FFC]">Web_Developer</h1>
                 </div>
                 <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-0 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
-                    <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-2/3 lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
-                        <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold "><span className="span ">My story as Designer and</span> Developer</h1>
+                    <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-[300px] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
+                        <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold whitespace-nowrap"><span className="span ">My story as Designer and</span> Developer</h1>
                         <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation in biology science, I loved to try new skills so, I steped into learn programing,
                             and started as UI/UX.  First participated in we-code UI/UX bootcamp. It was a very good start for me.Then i tried to learn front and back-end developer,
                             it was really interesting. And I developed my portfolio as first project.</p>
@@ -34,7 +34,7 @@ const WebDeveloper = () => {
                 </div> */}
                 <div className="flex justify-center place-items-center text-white mx-4 md:pt-28 sm:pt-20 pt-20">
                     <div className="lg:flex md:flex sm:flex grid justify-center place-items-center lg:gap-10 md:gap-10 sm:gap-5 gap-5 mt-0 sm:mx-3">
-                        <section className="text-blue-50 lg:w-1/3 md:w-2/5 sm:w-80 w-3/4  ">
+                        <section className="text-blue-50 lg:w-1/3 md:w-2/5 sm:w-80 w-[300px]  ">
                             <div className="ux lg:mb-20 md:mb-10 sm:mb-10 mb-7">
                                 <h1 className="font-semibold lg:text-2xl md:text-2xl sm:text-2xl text-xl">
                                     UI/UX Designer
