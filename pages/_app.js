@@ -13,6 +13,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#581ecc" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#cbbfe3" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
       </Head>
       <Component {...pageProps} />
     </React.Fragment>
