@@ -17,7 +17,7 @@ const Artist = () => {
 
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
-        <h1 className="h1 lg:text-6xl md:text-6xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
+        <h1 className="h1 lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
         <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am self-informed artist, started drawing when I was 12 years old till now.
           my artworks take inspiration from a life-long obsession with animals and the natural world.
           I am deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
@@ -56,7 +56,7 @@ const Artist = () => {
       </div>
       {/* ------------------------------------------------------  */}
       <div className="">
-        <div className="flex justify-center lg:gap-10 md:gap-6 sm:gap-3 gap-2 lg:mt-44 md:mt-44 sm:mt-32 mt-28  ">
+        <div className="flex justify-center lg:gap-10 md:gap-6 sm:gap-3 gap-2 lg:mt-44 md:mt-36 sm:mt-32 mt-28  ">
           <Link href="/artist/?image=1a" as="/1a"><a> <img src="art/1a.jpg" className="panther  lg:h-96 md:h-80 sm:h-60 h-40 w-auto  object-contain shadow-2xl rounded-sm" /></a></Link >
           <Link href="/artist/?image=2a" as="/2a"><a><img src="art/2a.jpg" className="         lg:h-96 md:h-80 sm:h-60 h-40 w-auto object-contain mt-20 hover:scale-125 transition duration-300 ease-in-out rounded-sm shadow-2xl" /></a></Link >
           <Link href="/artist/?image=3a" as="/3a"><a><img src="art/3a.png" className="panther2 lg:h-96 md:h-80 sm:h-60 h-40 w-auto object-contain mt-40 rounded-sm shadow-2xl" /></a></Link >
@@ -80,7 +80,7 @@ const Artist = () => {
 
         {/* ************  */}
 
-        <div className="no-scroll absolute w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14 mt-10 sm:mt-10 scrollbar-hide lg:hidden md:hidden sm:visible visible">
+        <div className="no-scroll absolute w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14 mt-10 sm:mt-0  scrollbar-hide lg:hidden md:hidden sm:visible visible">
           <div className="snap-center shrink-0">
             <div className="shrink-0 w-6 sm:w-20 "></div>
           </div>
@@ -115,7 +115,7 @@ const Artist = () => {
 
 
       {/* ------------------------------------------------------------------     */}
-      <div className="  lg:mt-60 md:mt-52 sm:mt-20 mt-20 lg:mb-36 md:mb-36 sm:mb-20 mb-5 ">
+      <div className="  lg:mt-60 md:mt-36 sm:mt-2 mt-20 lg:mb-36 md:mb-20 sm:mb-20 mb-5 ">
         <div className="tazhib-img flex lg:flex-row md:flex-row sm:flex-row flex-col justify-center place-items-center lg:gap-5 md:gap-5 sm:gap-2 space-y-5">
           <Link href="/artist/?image=tazhib" as="/tazhib"><a> <img src="art/tazhib.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-44 sm:h-44 w-44 h-44 object-fill mt-5" /></a></Link >
           <Link href="/artist/?image=tazhib2" as="/tazhib2"><a> <img src="art/tazhib2.jpg" className="lg:w-80 lg:h-80 md:w-60 md:h-60 sm:w-44 sm:h-44 w-44 h-44 object-cover" /></a></Link >

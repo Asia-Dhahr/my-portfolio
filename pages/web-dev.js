@@ -9,7 +9,7 @@ const WebDeveloper = () => {
     return (
         <div>
             <div className="bg-no-repeat bg-center h-fit lg:h-screen lg:bg-[url('/web/web.png')] sm:bg-[url('/web/web.png')] md:bg-[url('/web/webs.png')] bg-[url('/web/webs.png')] bg-cover">
-                <div className="sm:pt-3 md:pt-0 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
+                <div className="sm:pt-3 md:pt-3 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
                     <ArrowLeftIcon className='icon2 h-12 w-12 p-1 rounded-full border-r-2 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")} />
                 </div>
                 <div className="pt-10 sm:pt-0 md:pl-5 sm:ml-3 ml-2 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-[#45C916] lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">

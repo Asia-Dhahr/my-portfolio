@@ -27,10 +27,10 @@ const Biologist = () => {
                     <ArrowLeftIcon className='icon lg:h-16 lg:w-16 md:h-12 md:w-12 sm:h-12 sm:w-12 h-12 w-12 p-1 md:p-1 rounded-full border-r-4 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")}
                     />
                 </div>
-                <div className="bio lg:text-6xl sm:text-3xl text-2xl text-green-800 font-bold sm:pt-0 pt-8 md:pt-4 lg:pl-40 pl-12">
+                <div className="bio lg:text-6xl sm:text-3xl text-2xl text-green-800 font-bold sm:pt-0 pt-8 md:pt-2 lg:pl-40 md:pl-5 sm:pl-5 pl-12">
                     <h1>Biologist</h1>
                 </div>
-                <div className="bio flex justify-center items-top lg:mt-40 md:mt-14 sm:mt-8 mt-10 mx-5 sm:mx-2 space-x-4 h-fit pb-20 lg:pb-32 ">
+                <div className="bio flex justify-center items-top lg:mt-40 md:mt-8 sm:mt-8 mt-10 mx-5 sm:mx-2 space-x-4 h-fit pb-20 lg:pb-32 ">
                     <div className="invisible lg:visible md:visible sm:visible">
                         <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-48 md:h-56 w-0 lg:w-full md:w-full sm:w-32 opacity-80" alt='' />
                     </div>
