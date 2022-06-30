@@ -1,50 +1,56 @@
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
- html,
- body {
-     padding: 0;
-     margin: 0;
-     font-family: montserrat, sans-serif;
- }
- 
- a {
-     color: inherit;
-     text-decoration: none;
- }
- 
- * {
-     box-sizing: border-box;
- }
- /* ----------------------------------home     */
- 
- .h1-1 {
-     color: transparent;
-     background: conic-gradient(#C6B7DA 33%, #E9D5DA 33%, #99C4C8 12%, #8C7899 33%);
-     background-size: 80%;
-     background-clip: text;
-     -webkit-background-clip: text;
-     /* animation: expand-rev 0.5s ease forwards; */
-     cursor: pointer;
-     animation: expand 8s ease infinite;
- }
- /* .h1-1:hover {} */
- 
- @keyframes expand {
-     0% {
-         background-size: 50%;
-         background-position: 0 0;
-     }
-     20% {
-         background-size: 55%;
-         background-position: 0 2em;
-     }
-     100% {
-         background-size: 345%;
-         background-position: -7em -4em;
-     }
- }
- /* @keyframes expand-rev {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------home     */
+
+.h1-1 {
+    color: transparent;
+    background: conic-gradient( #c6b7da 33%, #e9d5da 33%, #99c4c8 12%, #8c7899 33%);
+    background-size: 80%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* animation: expand-rev 0.5s ease forwards; */
+    cursor: pointer;
+    animation: expand 8s ease infinite;
+}
+
+
+/* .h1-1:hover {} */
+
+@keyframes expand {
+    0% {
+        background-size: 50%;
+        background-position: 0 0;
+    }
+    20% {
+        background-size: 55%;
+        background-position: 0 2em;
+    }
+    100% {
+        background-size: 345%;
+        background-position: -7em -4em;
+    }
+}
+
+
+/* @keyframes expand-rev {
      0% {
          background-size: 325%;
          background-position: 9em -4em;
@@ -58,191 +64,205 @@
          background-position: 0 0;
      }
  } */
- 
- .blur-box:hover {
-     /* background-color: rgb(237, 30, 30); */
-     box-shadow: 0 12px 12px 0 #6B21A8;
- }
- 
- .bio {
-     color: #848572;
- }
- 
- .icon {
-     color: #848572;
-     border-color: #848572;
- }
- 
- .icon:hover {
-     background-color: #e7e0d4;
- }
- 
- .gur {
-     border-color: #DC9293;
- }
- 
- .h1w {
-     width: 385px;
- }
- 
- .h2 {
-     color: #6e7259;
- }
- 
- .no-scroll {
-     -ms-overflow-style: none;
-     scrollbar-width: none;
- }
- 
- .no-scroll::-webkit-scrollbar {
-     display: none;
- }
- /* --------------------------------------------web  */
- 
- .span {
-     border-bottom: 4px solid;
-     border-image: linear-gradient(to left, #45C916, #328FFC);
-     border-image-slice: 1;
- }
- 
- .ux {
-     background-image: linear-gradient(to left, #50bd29, #50bd29, #45C916, #32a1fc, #328FFC 130%);
-     background-clip: text;
-     color: transparent;
- }
- 
- .wd {
-     background-image: linear-gradient(60deg, #328FFC, #32a1fc, #50bd29, #50bd29 17%);
-     background-clip: text;
-     color: transparent;
- }
- 
- .rate {
-     background-image: linear-gradient(to left, #359e0f, #45C916, #32a4fc, #1f7fed 130%);
- }
- 
- .icon2 {
-     color: #4a9af5;
-     border-color: #4a9af5;
- }
- 
- .icon2:hover {
-     background-color: #4e5776;
-     ;
- }
- /* -----------------------------------------artist  */
- 
- .h1 {
-     background-image: linear-gradient(to right, #046582, #6E7582, #BB8082, #F39189 130%);
-     background-clip: text;
-     color: transparent;
-     font-family: sans-serif;
- }
- 
- .h1:hover {
-     transform: translate3d(0, -10px, 22px);
-     color: #BB8082;
-     transition: all 0.4s ease;
- }
- 
- .panther:hover {
-     transform: translate3d(170px, 80px, 55px);
-     transition: all 0.4s ease;
- }
- 
- .panther2:hover {
-     transform: translate3d(-170px, -80px, 55px);
-     transition: all 0.4s ease;
- }
- 
- .heptagon {
-     background-image: linear-gradient(to top, #BB8082, #046582 150%);
-     clip-path: polygon( 50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
- }
- 
- .heptagon:hover {
-     transform: translate3d(0px, -10px, 22px);
-     transition: all 0.4s ease;
- }
- 
- .heptagon img:hover {
-     mask-image: linear-gradient(#046582, transparent);
- }
- 
- .tazhib-img {
-     margin: 25px 0;
- }
- 
- .tazhib-img img {
-     background: transparent;
-     opacity: 0;
-     animation: steps 7s linear infinite;
-     border-radius: 200px 200px 5px 5px;
-     box-shadow: 1px 1px 20px #4a4949;
- }
- 
- .tazhib-img img:nth-child(2) {
-     animation-delay: 1s;
-     border-radius: 200px 200px 5px 5px;
- }
- 
- .tazhib-img img:nth-child(3) {
-     animation-delay: 2s;
-     border-radius: 200px 200px 5px 5px;
- }
- 
- @keyframes steps {
-     0% {
-         left: calc(0% - 25px);
-         opacity: 0.5;
-     }
-     12.5% {
-         left: calc(35% - 25px);
-         opacity: 1;
-     }
-     37.5% {
-         left: calc(65% - 25px);
-         opacity: 1;
-     }
-     50% {
-         left: calc(100% - 50px);
-         opacity: 0.3;
-     }
-     100% {
-         opacity: 0.3;
-     }
- }
- 
- .cont {
-     /* background-color: #0070f3; */
-     margin: 10px auto;
-     box-sizing: border-box;
- }
- 
- .im {
-     background-color: rgb(29, 79, 84);
-     transition: all 1s ease-out;
-     transition-property: width;
-     transition-duration: 0.7s;
-     transition-delay: 0.2ms;
- }
- 
- .im:hover {
-     /* width: 430px; */
-     border-radius: 4rem;
- }
- 
- .snake {
-     height: 500px;
-     width: 350px;
- }
- 
- .icon3 {
-     color: #DC9293;
-     border-color: #046582;
- }
- 
- .icon3:hover {
-     color: #046582;
-     border-color: #DC9293;
- }
+
+.blur-box:hover {
+    /* background-color: rgb(237, 30, 30); */
+    box-shadow: 0 12px 12px 0 #6b21a8;
+}
+
+.bio {
+    color: #848572;
+}
+
+.icon {
+    color: #848572;
+    border-color: #848572;
+}
+
+.icon:hover {
+    background-color: #e7e0d4;
+}
+
+.gur {
+    border-color: #dc9293;
+}
+
+.h1w {
+    width: 385px;
+}
+
+.h2 {
+    color: #6e7259;
+}
+
+.no-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* --------------------------------------------web  */
+
+.span {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to left, #45c916, #328ffc);
+    border-image-slice: 1;
+}
+
+.ux {
+    background-image: linear-gradient( to left, #50bd29, #50bd29, #45c916, #32a1fc, #328ffc 130%);
+    background-clip: text;
+    color: transparent;
+}
+
+.wd {
+    background-image: linear-gradient( 60deg, #328ffc, #32a1fc, #50bd29, #50bd29 17%);
+    background-clip: text;
+    color: transparent;
+}
+
+.rate {
+    background-image: linear-gradient( to left, #359e0f, #45c916, #32a4fc, #1f7fed 130%);
+}
+
+.icon2 {
+    color: #4a9af5;
+    border-color: #4a9af5;
+}
+
+.icon2:hover {
+    background-color: #4e5776;
+}
+
+
+/* -----------------------------------------artist  */
+
+.h1 {
+    background-image: linear-gradient( to right, #046582, #6e7582, #bb8082, #f39189 130%);
+    background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+}
+
+.h1:hover {
+    transform: translate3d(0, -10px, 22px);
+    color: #bb8082;
+    transition: all 0.4s ease;
+}
+
+.panther:hover {
+    transform: translate3d(170px, 80px, 55px);
+    transition: all 0.4s ease;
+}
+
+.panther2:hover {
+    transform: translate3d(-170px, -80px, 55px);
+    transition: all 0.4s ease;
+}
+
+.heptagon {
+    background-image: linear-gradient(to top, #bb8082, #046582 150%);
+    clip-path: polygon( 50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+.heptagon:hover {
+    transform: translate3d(0px, -10px, 22px);
+    transition: all 0.4s ease;
+}
+
+.heptagon img:hover {
+    mask-image: linear-gradient(#046582, transparent);
+}
+
+
+/* 
+
+
+.tazhib-img img {
+    background: transparent;
+    opacity: 0;
+    animation: steps 6s linear infinite;
+    border-radius: 200px 200px 5px 5px;
+    box-shadow: 1px 1px 20px #4a4949;
+}
+
+.tazhib-img img:nth-child(2) {
+    animation-delay: 1s;
+    border-radius: 200px 200px 5px 5px;
+}
+
+.tazhib-img img:nth-child(3) {
+    animation-delay: 2s;
+    border-radius: 200px 200px 5px 5px;
+}
+
+@keyframes steps {
+    0% {
+        left: calc(0% - 25px);
+        opacity: 0.5;
+    }
+    12.5% {
+        left: calc(35% - 25px);
+        opacity: 1;
+    }
+    37.5% {
+        left: calc(65% - 25px);
+        opacity: 1;
+    }
+    50% {
+        left: calc(100% - 50px);
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0.3;
+    }
+} */
+
+.tazhib-img img {
+    border-radius: 200px 200px 5px 5px;
+}
+
+.tazhib-img img:hover {
+    transform: translate3d(0px, -8px, 5px);
+    transition: all 0.4s ease;
+    border: 8px solid;
+    border-color: #bb8082;
+}
+
+.cont {
+    /* background-color: #0070f3; */
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.im {
+    background-color: rgb(29, 79, 84);
+    transition: all 1s ease-out;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-delay: 0.2ms;
+}
+
+.im:hover {
+    /* width: 430px; */
+    border-radius: 4rem;
+}
+
+.snake {
+    height: 500px;
+    width: 350px;
+}
+
+.icon3 {
+    color: #dc9293;
+    border-color: #046582;
+}
+
+.icon3:hover {
+    color: #046582;
+    border-color: #dc9293;
+}

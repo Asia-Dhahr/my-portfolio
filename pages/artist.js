@@ -17,7 +17,7 @@ const Artist = () => {
 
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
-        <h1 className="h1 lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold  pb-6 sm:pb-4">Artist</h1>
+        <h1 className="h1 lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold pb-6 sm:pb-4">Artist</h1>
         <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am self-informed artist, started drawing when I was 12 years old till now.
           my artworks take inspiration from a life-long obsession with animals and the natural world.
           I am deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
