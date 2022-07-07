@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex justify-start lg:ml-10 sm:ml-6 h-fit w-fit sm:pt-3">
         <img className="h-10 sm:h-9 md:h-12 lg:h-20 sm:mt-1 mt-4 lg:mt-6 md:mt-0 md:ml-0 ml-4 object-contain" src="logo.png" />
       </div>
-      <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-4 sm:gap-2 lg:mt-9 md:mt-0 sm:mt-0 mt-12">
+      <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-4 sm:gap-2 lg:mt-0 md:mt-0 sm:mt-0 mt-12">
         <div className="">
           <h1 className="h1-1 lg:text-8xl sm:text-3xl md:text-5xl font-bold text-3xl ">
             Hello World!
@@ -50,7 +50,7 @@ export default function Home() {
         <div className="blur-box flex flex-col justify-center font-semibold text-purple-100 rounded-full lg:w-64 lg:h-64 md:h-44 md:w-44 sm:h-28 sm:w-28 h-28 w-28 transition ease-in-out delay-250 place-items-center">
           <img
             src="wd.png"
-            className="h-fit lg:w-36 lg:h-40 md:w-20 md:h-24 md:h-32 sm:w-14 w-16"
+            className="h-fit lg:w-36 lg:h-40 md:w-20 md:h-24 sm:w-14 w-16"
             onClick={() => router.push("/web-dev")}
           />
           <div className="lg:text-xl md:text-sm text-center sm:text-xs text-sm pt-2  whitespace-nowrap">

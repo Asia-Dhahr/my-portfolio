@@ -15,15 +15,13 @@ const WebDeveloper = () => {
                 <div className="pt-10 sm:pt-0 md:pl-5 sm:ml-3 ml-2 md:pt-6 lg:mt-14 font-bold lg:text-xl md:text-sm sm:text-base text-base  text-[#45C916] lg:h-fit md:h-fit sm:h-6 h-24 w-40 md:w-fit mt-8 md:mt-0">
                     <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-[#328FFC]">Web_Developer</h1>
                 </div>
-                <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 lg:mt-0 md:mt-0 sm:mt-5 mt-0 lg:gap-28 md:gap-16 sm:gap-10 gap-10 text-blue-50">
-                    <div className="lg:w-2/6 md:w-2/5 sm:w-80 w-[300px] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
+                <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 md:pb-8 sm:pb-6 lg:mt-0 md:mt-8 sm:mt-5 mt-0 lg:gap-28 md:gap-14 sm:gap-10 gap-10 text-blue-50">
+                    <div className="lg:w-2/6 md:w-2/4 sm:w-80 w-[300px] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
                         <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold whitespace-nowrap"><span className="span ">My story as Designer and</span> Developer</h1>
-                        <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation in biology science, I loved to try new skills so, I steped into learn programing,
-                            and started as UI/UX.  First participated in we-code UI/UX bootcamp. It was a very good start for me.Then i tried to learn front and back-end developer,
-                            it was really interesting. And I developed my portfolio as first project.</p>
+                        <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation, I decided that I wanted to learn new skills and explore new areas, so I decided to learn programming. I started with UI/UX design because it was something that interested me. I participated in a we-code UI/UX bootcamp, which was a great introduction to the world of user interface design. I then decided to learn front-end and back-end development, which was really interesting. My first personal project was to develop my portfolio.</p>
                     </div>
                     <div className="">
-                        <img src="web/chart.png" className="lg:h-96 lg:w-96 md:h-72 md:w-72 sm:w-52 sm:h-52 h-48 lg:mx-0 md:mx-0 sm:mx-0 mx-auto" />
+                        <img src="web/chart.png" className="lg:h-96 lg:w-96 md:h-56 md:w-56 sm:w-52 sm:h-52 h-48 lg:mx-0 md:mx-0 sm:mx-0 mx-auto" />
                     </div>
                 </div>
             </div>
@@ -107,13 +105,13 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ====================================================p3  */}
-            <div className="h-[799px] md:h-[980px] lg:h-[1000px] sm:h-[830px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
+            <div className="h-fit md:h-[1070px] lg:h-[1160px] sm:h-[900px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
                 <div className="flex justify-center">
-                    <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:mt-20 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
+                    <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:pt-10 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>
-                        <div className="text-blue-50 lg:w-1/2 md:w-2/3 sm:w-80 w-[300px] pt-8 lg:mx-12 md:mx-10 sm:mx-6 mx-6">
+                        <div className="text-blue-50 lg:w-1/2 md:w-2/3 sm:w-96 w-[350px] pt-8 lg:mx-12 md:mx-10 sm:mx-6 mx-6">
                             <h2 className="span border-b-3 w-14 lg:text-xl md:text-xl sm:text-xl text-lg font-semibold ">Front_End</h2>
-                            <p className="text-justify lg:text-lg  md:text-lg  sm:text-sm text-sm pt-6 lg:mb-20 md:mb-20 sm:mb-10 ">I worked in ovanya company as front-end developer, participated in 3 projects, but they are closed source software can not show them here.</p>
+                            <p className="text-justify lg:text-lg  md:text-lg  sm:text-sm text-sm pt-6 lg:mb-20 md:mb-20 sm:mb-10 ">I worked at Ovanya company as a front-end developer and participated in three closed-source software projects. My primary responsibility on their team was to design user-friendly UI/UX and then bring those designs to life with code.</p>
                         </div>
                         <h2 className="lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 lg:text-xl md:text-xl sm:text-base text-lg  font-semibold lg:mt-8 md:mt-8 sm:mt-8 mt-10"><span className="span">Program</span> Skills</h2>
                     </section>
@@ -187,7 +185,7 @@ const WebDeveloper = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center text-center lg:mt-28 md:mt-[118px]  sm:mt-16 mt-16 sm:mb-8 md:mr-12 gap-6 text-blue-50 ">
+                <div className="flex justify-center items-center text-center lg:mt-28 md:mt-[118px]  sm:mt-16 mt-16 sm:mb-8 md:mr-12 gap-6 text-blue-50 pb-12">
                     <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://github.com/Asia-Dhahr"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-7 sm:w-7 h-7 w-7" src="web/github.png" /></a>
                     <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
                 </div>
