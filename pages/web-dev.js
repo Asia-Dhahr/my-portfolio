@@ -7,7 +7,7 @@ const WebDeveloper = () => {
     const router = useRouter()
 
     return (
-        <div>
+        <div className="">
             <div className="bg-no-repeat bg-center h-fit lg:h-screen lg:bg-[url('/web/web.png')] sm:bg-[url('/web/web.png')] md:bg-[url('/web/webs.png')] bg-[url('/web/webs.png')] bg-cover">
                 <div className="sm:pt-3 md:pt-3 lg:pt-2 pt-2 lg:pl-8 md:pl-4 pl-2">
                     <ArrowLeftIcon className='icon2 h-12 w-12 p-1 rounded-full border-r-2 transition ease-in-out delay-96 cursor-pointer' onClick={() => router.push("/")} />
@@ -107,10 +107,14 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ====================================================p3  */}
-            <div className="h-[700px] md:h-[770px] lg:h-screen bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')] ">
+            <div className="h-[799px] md:h-[980px] lg:h-[1000px] sm:h-[830px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
                 <div className="flex justify-center">
                     <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:mt-20 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>
+                        <div className="text-blue-50 lg:w-1/2 md:w-2/3 sm:w-80 w-[300px] pt-8 lg:mx-12 md:mx-10 sm:mx-6 mx-6">
+                            <h2 className="span border-b-3 w-14 lg:text-xl md:text-xl sm:text-xl text-lg font-semibold ">Front_End</h2>
+                            <p className="text-justify lg:text-lg  md:text-lg  sm:text-sm text-sm pt-6 lg:mb-20 md:mb-20 sm:mb-10 ">I worked in ovanya company as front-end developer, participated in 3 projects, but they are closed source software can not show them here.</p>
+                        </div>
                         <h2 className="lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 lg:text-xl md:text-xl sm:text-base text-lg  font-semibold lg:mt-8 md:mt-8 sm:mt-8 mt-10"><span className="span">Program</span> Skills</h2>
                     </section>
                 </div>
@@ -188,7 +192,9 @@ const WebDeveloper = () => {
                     <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
                 </div>
             </div>
-            {/* <div className="bg-[url('/web/p3-3.png')] sm:h-[600px] h-72 bg-cover lg:hidden md:hidden sm:visible visible  bg-no-repeat"></div> */}
+            {/* <div className="bg-[url('/web/p3-3.png')] sm:h-[600px] bg-cover lg:hidden md:hidden sm:visible visible  bg-no-repeat bg-[#141D3E] ">
+                hi
+            </div> */}
         </div>
     )
 }
