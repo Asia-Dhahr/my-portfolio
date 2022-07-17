@@ -18,9 +18,9 @@ const Artist = () => {
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
         <h1 className="h1 lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold pb-6 sm:pb-4">Artist</h1>
-        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am self-informed artist, started drawing when I was 12 years old till now.
-          my artworks take inspiration from a life-long obsession with animals and the natural world.
-          I am deeply interested in creating mandalas art and tazhib art. My drawings based on peoples order and my desires.</p>
+        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am a self-taught artist who started drawing when I was 12 years old and has been continuing to draw till now.
+          My artworks take inspiration from a life-long obsession with animals and the natural world.
+          I am deeply interested in creating mandala art and tazhib art. My drawings are based on peoples orders and my desires.</p>
         {/* <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
           <h2 className="pb-1 ">Click...</h2>
         </div> */}

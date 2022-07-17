@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-4 sm:gap-2 lg:mt-0 md:mt-0 sm:mt-0 mt-12">
         <div className="">
-          <h1 className="h1-1 lg:text-8xl sm:text-3xl md:text-5xl font-bold text-3xl ">
+          <h1 className="h1-1 lg:text-[5rem] sm:text-3xl md:text-5xl font-extrabold text-3xl ">
             Hello World!
           </h1>
         </div>

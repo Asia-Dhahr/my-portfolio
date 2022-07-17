@@ -17,7 +17,7 @@ const WebDeveloper = () => {
                 </div>
                 <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 md:pb-8 sm:pb-6 lg:mt-0 md:mt-8 sm:mt-5 mt-0 lg:gap-28 md:gap-14 sm:gap-10 gap-10 text-blue-50">
                     <div className="lg:w-2/6 md:w-2/4 sm:w-80 w-[300px] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
-                        <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold whitespace-nowrap"><span className="span ">My story as Designer and</span> Developer</h1>
+                        <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold"><span className="span ">My story as Designer and</span> Developer</h1>
                         <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation, I decided that I wanted to learn new skills and explore new areas, so I decided to learn programming. I started with UI/UX design because it was something that interested me. I participated in a we-code UI/UX bootcamp, which was a great introduction to the world of user interface design. I then decided to learn front-end and back-end development, which was really interesting. My first personal project was to develop my portfolio.</p>
                     </div>
                     <div className="">
@@ -105,11 +105,11 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ====================================================p3  */}
-            <div className="h-fit md:h-[1070px] lg:h-[1160px] sm:h-[900px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
+            <div className="h-fit md:h-[1070px] lg:h-[76rem] sm:h-[900px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
                 <div className="flex justify-center">
                     <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:pt-10 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>
-                        <div className="text-blue-50 lg:w-1/2 md:w-2/3 sm:w-96 w-[350px] pt-8 lg:mx-12 md:mx-10 sm:mx-6 mx-6">
+                        <div className="text-blue-50 lg:w-1/2 md:w-2/3 sm:w-[30rem] w-80 pt-8 lg:mx-12 md:mx-10 sm:mx-6 mx-6">
                             <h2 className="span border-b-3 w-14 lg:text-xl md:text-xl sm:text-xl text-lg font-semibold ">Front_End</h2>
                             <p className="text-justify lg:text-lg  md:text-lg  sm:text-sm text-sm pt-6 lg:mb-20 md:mb-20 sm:mb-10 ">I worked at Ovanya company as a front-end developer and participated in three closed-source software projects. My primary responsibility on their team was to design user-friendly UI/UX and then bring those designs to life with code.</p>
                         </div>
@@ -154,7 +154,7 @@ const WebDeveloper = () => {
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10">
                                 <h1 className="mb-3 font-base lg:text-lg md:text-base sm:text-sm text-xs">JavaScript</h1>
                                 <div className="bg-[url('/web/opacity.png')] bg-no-repeat bg-cover lg:w-96 md:w-72 sm:w-60 w-[150px] lg:h-4 md:h-4 sm:h-3 h-3  rounded-r-xl rounded-l-2xl ">
-                                    <div className="rate lg:w-[280px] md:w-52 sm:w-52 w-28 lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
+                                    <div className="rate lg:w-[280px] md:w-52 sm:w-52 w-[6rem] lg:h-4 md:h-4 sm:h-3 h-3 bg-green-400 rounded-r-full rounded-l-full shadow-lg hover:shadow-green-400/50 hover:text-green-300 transition duration-300"></div>
                                 </div>
                             </div>
                             <div className=" display-block text-blue-50 lg:ml-0 md:ml-10 sm:ml-10">

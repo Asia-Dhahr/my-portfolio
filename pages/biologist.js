@@ -32,14 +32,14 @@ const Biologist = () => {
                 </div>
                 <div className="bio flex justify-center items-top lg:mt-40 md:mt-8 sm:mt-8 mt-10 mx-5 sm:mx-2 space-x-4 h-fit pb-20 lg:pb-32 ">
                     <div className="invisible lg:visible md:visible sm:visible">
-                        <img src="p1/vector.png" className="lg:h-64 h-56 sm:h-48 md:h-56 w-0 lg:w-full md:w-full sm:w-32 opacity-80" alt='' />
+                        <img src="p1/vector.png" className="lg:h-80 h-56 sm:h-48 md:h-56 w-0 lg:w-full md:w-full sm:w-32 opacity-80" alt='' />
                     </div>
                     <div className="flex flex-col lg:flex-row md:flex-row sm:flex-row lg:space-x-5 md:space-x-5 sm:space-x-5 lg:space-y-0 md:space-y-0 sm:space-y-0 space-y-4">
                         <div className="flex flex-col lg:w-96 md:w-60 sm:w-60 w-72 text-justify ">
                             <h2 className="lg:text-xl sm:text-lg text-lg font-semibold pb-2">Education</h2>
                             <p className="lg:text-lg md:text-sm text-sm ">Bachelorses Degree, Salahaddin University-College of Science -  Biology department, Erbil<br />
                                 <span className=" text-xs font-thin "> AUGUST 2018 — JUNE 2021</span><br /><br /><br />
-                                I am Dedicated biological study with more than 4 years of experience in general biology, practices with many modern biology techniques.</p>
+                                I am a highly dedicated student of biology with more than four years of experience in general biology, and I have practical experience with many modern biology techniques.</p>
                         </div>
                         <div className="flex flex-col lg:w-96 md:w-56 sm:w-48 w-72 text-justify">
                             <h3 className="lg:text-xl sm:text-lg text-lg font-semibold pb-2">Employment History</h3>
