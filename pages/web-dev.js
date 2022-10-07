@@ -190,9 +190,6 @@ const WebDeveloper = () => {
                     <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
                 </div>
             </div>
-            {/* <div className="bg-[url('/web/p3-3.png')] sm:h-[600px] bg-cover lg:hidden md:hidden sm:visible visible  bg-no-repeat bg-[#141D3E] ">
-                hi
-            </div> */}
         </div>
     )
 }

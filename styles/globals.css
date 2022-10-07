@@ -266,3 +266,25 @@ a {
     color: #046582;
     border-color: #dc9293;
 }
+
+.version {
+    position: relative;
+}
+
+.version::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    padding: 2px;
+    background: linear-gradient(to left, #c6b7da, #8c7899);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    transition: all 0.4s ease;
+}
+
+.version:hover::before {
+    transition: all 0.4s ease;
+    padding: 6px;
+}
