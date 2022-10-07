@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-no-repeat bg-center h-screen overflow-auto bg-fixed lg:bg-[url('/bg.png')] sm:bg-[url('/bg.png')] md:bg-[url('/bgsm.png')] bg-[url('/bg2.png')] bg-cover">
       <div className="flex justify-between items-center my-4 text-purple-100  lg:ml-10 sm:ml-6">
         <img className="h-10 sm:h-9 md:h-12 lg:h-20 sm:mt-1 mt-4 lg:mt-6 md:mt-0 md:ml-0 ml-4 object-contain" src="logo.png" />
-        <Link href="https://asia-dhaher.vercel.app/" >
+        <Link href="https://portfolio-asia-dhahr.vercel.app" >
           <div className="version sm:h-10 sm:w-24 h-8 w-16 text-center sm:text-xl text-base mx-8 font-medium flex justify-center items-center cursor-pointer ">V.02</div>
         </Link>
       </div>
