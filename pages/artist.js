@@ -18,12 +18,9 @@ const Artist = () => {
       </div>
       <div className="flex flex-col justify-center place-items-center text-center text-white  ">
         <h1 className="h1 lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold pb-6 sm:pb-4">Artist</h1>
-        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[310px]">I am a self-taught artist who started drawing when I was 12 years old and has been continuing to draw till now.
+        <p className="lg:text-lg md:text-lg sm:text-sm text-sm pb-2 sm:pb-0 text-rose-100 lg:w-2/5 md:w-2/3 sm:w-2/3 w-[80%]">I am a self-taught artist who started drawing when I was 12 years old and has been continuing to draw till now.
           My artworks take inspiration from a life-long obsession with animals and the natural world.
           I am deeply interested in creating mandala art and tazhib art. My drawings are based on peoples orders and my desires.</p>
-        {/* <div className="flex justify-start text-sm sm:invisible place-content-start lg:w-2/6 md:w-2/4 sm:w-2/3 w-80 text-cyan-50 pt-2">
-          <h2 className="pb-1 ">Click...</h2>
-        </div> */}
       </div>
       <div className="cont flex lg:flex-row md:flex-row sm:flex-row flex-col place-items-center gap-2 justify-center pt-6">
         <div className="flex gap-2">
@@ -38,20 +35,20 @@ const Artist = () => {
             </Modal>
           )}
           <Link href="/artist/?image=2" as="/2">
-            <a> <img src="art/2.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56 duration-500" />   </a>
+            <a> <img src="art/2.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14 h-[19em] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56 duration-500" />   </a>
           </Link>
           <Link href="/artist/?image=3" as="/3">
-            <a> <img src="art/3.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover " /></a></Link>
+            <a> <img src="art/3.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14 h-[19em] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover " /></a></Link>
           <Link href="/artist/?image=7" as="/7">
-            <a><img src="art/7.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover " /></a></Link>
+            <a><img src="art/7.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14 h-[19em] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover " /></a></Link>
         </div>
         <div className="flex gap-2">
           <Link href="/artist/?image=4" as="/4">
-            <a> <img src="art/4.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  duration-500" /></a></Link >
+            <a> <img src="art/4.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14 h-[19em] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  duration-500" /></a></Link >
           <Link href="/artist/?image=5" as="/5">
-            <a><img src="art/5.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  duration-500" /></a ></Link >
+            <a><img src="art/5.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14 h-[19em] w-14 rounded-full shadow-2xl ease-in-out object-cover lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  duration-500" /></a ></Link >
           <Link href="/artist/?image=6" as="/6">
-            <a> <img src="art/6.jpg" className="im lg:h-[500px] lg:w-16 md:h-[470px] md:w-16 sm:h-[350px] sm:w-14 h-[300px] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover" /></a ></Link >
+            <a> <img src="art/6.jpg" className="im lg:h-[31.3em] lg:w-16 md:h-[29.9em] md:w-16 sm:h-[21.8em] sm:w-14  h-[19em] w-14 rounded-full shadow-2xl ease-in-out duration-500 lg:hover:w-[430px] md:hover:w-[360px] sm:hover:w-[270px] hover:w-56  object-cover" /></a ></Link >
         </div>
       </div>
       {/* ------------------------------------------------------  */}

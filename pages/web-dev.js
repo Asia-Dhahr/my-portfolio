@@ -16,7 +16,7 @@ const WebDeveloper = () => {
                     <h1 className="pb-1 lg:my-20 lg:ml-0 ml-2 md:ml-0 lg:-rotate-90 border-b-4 w-20 border-[#328FFC]">Web_Developer</h1>
                 </div>
                 <div className="lg:flex md:flex sm:flex grid justify-center items-center p-3 md:p-0 md:pb-8 sm:pb-6 lg:mt-0 md:mt-8 sm:mt-5 mt-0 lg:gap-28 md:gap-14 sm:gap-10 gap-10 text-blue-50">
-                    <div className="lg:w-2/6 md:w-2/4 sm:w-80 w-[300px] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
+                    <div className="lg:w-2/6 md:w-2/4 sm:w-80 w-[80%] lg:mx-0 md:mx-0 sm:mx-0 mx-auto">
                         <h1 className="lg:text-2xl md:text-xl sm:text-lg text-lg font-semibold"><span className="span ">My story as Designer and</span> Developer</h1>
                         <p className="lg:text-lg md:text-base sm:text-sm text-sm pt-4 text-justify">After graduation, I decided that I wanted to learn new skills and explore new areas, so I decided to learn programming. I started with UI/UX design because it was something that interested me. I participated in a we-code UI/UX bootcamp, which was a great introduction to the world of user interface design. I then decided to learn front-end and back-end development, which was really interesting. My first personal project was to develop my portfolio.</p>
                     </div>
@@ -27,12 +27,9 @@ const WebDeveloper = () => {
             </div>
             {/* ==========================================p2 */}
             <div className="  bg-[url('/web/p2.png')] h-fit lg:bg-screen bg-cover bg-scroll">
-                {/* <div className="flex justify-start items-start">
-                    <div className="absolute lg:visible md:visible sm:visible invisible " ><img src="web/design.png" className="mandala lg:w-64 lg:h-64 md:w-44 md:h-44 sm:w-40 sm:h-40 h-20  animate-spin" /></div>
-                </div> */}
                 <div className="flex justify-center place-items-center text-white mx-4 md:pt-28 sm:pt-20 pt-20">
                     <div className="lg:flex md:flex sm:flex grid justify-center place-items-center lg:gap-10 md:gap-10 sm:gap-5 gap-5 mt-0 sm:mx-3">
-                        <section className="text-blue-50 lg:w-1/3 md:w-2/5 sm:w-80 w-[300px]  ">
+                        <section className="text-blue-50 lg:w-1/3 md:w-2/5 sm:w-80 w-[80%]  ">
                             <div className="ux lg:mb-20 md:mb-10 sm:mb-10 mb-7">
                                 <h1 className="font-semibold lg:text-2xl md:text-2xl sm:text-2xl text-xl">
                                     UI/UX Designer
@@ -105,7 +102,7 @@ const WebDeveloper = () => {
                 </div>
             </div>
             {/* ====================================================p3  */}
-            <div className="h-fit md:h-[1070px] lg:h-[76rem] sm:h-[900px] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
+            <div className="h-full md:h-[66em] lg:h-[76em] sm:h-[55em] bg-cover bg-scroll bg-no-repeat bg-center lg:bg-[url('/web/p3.png')] sm:bg-[url('/web/p3-3.png')] md:bg-[url('/web/p3-2.png')] bg-[url('/web/p3.png')]  ">
                 <div className="flex justify-center">
                     <section className="lg:w-2/3 md:w-full sm:w-full w-full lg:pt-10 md:mt-20 sm:mt-14 mt-20 lg:mb-12 md:mb-8 sm:mb-7 mb-7">
                         <h1 className="wd lg:mx-12 md:mx-10 sm:mx-6 mx-6 text-blue-50 border-b-3 font-semibold lg:text-2xl md:text-2xl sm:text-xl text-xl">Web Developer</h1>
