@@ -122,7 +122,7 @@ const Artist = () => {
 
       <div className="flex justify-center place-items-center gap-4 mt-12 mb-5 text-rose-100">
         <h1 className="text-sm lg:text-lg md:text-base">Follow Me</h1>
-        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm___asia/?hl=en"><img src="art/insta.png" className="lg:w-9 lg:h-9 md:h-8 md:w-8 w-6 h-6" /></a></p>
+        <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.instagram.com/7.19pm_asia/?hl=en"><img src="art/insta.png" className="lg:w-9 lg:h-9 md:h-8 md:w-8 w-6 h-6" /></a></p>
       </div>
     </div>
 

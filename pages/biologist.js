@@ -127,7 +127,7 @@ const Biologist = () => {
                 <div className="flex justify-center place-items-center gap-2 lg:mt-36 sm:mt-7 md:mt-14 mt-16 pb-5">
                     <h1 className="h2 text-sm lg:text-lg mr-2">Get in Touch</h1>
                     <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="mailto:asia.zahir2000@gmail.com"><img src="p2/email.png" className="lg:w-7 lg:h-7 w-6 h-6" /></a></p>
-                    <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.linkedin.com/in/asia-zahir-173074216/"><img src="p2/linkd.png" className="lg:w-7 lg:h-7 w-6 h-6" /></a></p>
+                    <p className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250"><a className="" href="https://www.linkedin.com/in/asia-zahir/"><img src="p2/linkd.png" className="lg:w-7 lg:h-7 w-6 h-6" /></a></p>
                 </div>
             </div>
 

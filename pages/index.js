@@ -19,14 +19,14 @@ export default function Home() {
         <img className="h-10 sm:h-9 md:h-12 lg:h-20 sm:mt-1 mt-4 lg:mt-6 md:mt-0 md:ml-0 ml-4 object-contain" src="logo.png" />
        <div onClick={()=> setShow(!show)} className="relative flex">
         <Link href="https://portfolio-asia-dhahr.vercel.app" >
-          <div className="version absolute sm:h-10 sm:w-24 h-8 w-14 text-center sm:text-xl text-sm mx-8 font-medium flex justify-center items-center cursor-pointer ">V.02</div>
+          <div className="version absolute sm:h-10 sm:w-32 h-8 w-14 text-center sm:text-xl text-sm mx-8 font-medium flex justify-center items-center cursor-pointer "><span className="text-xs pr-2">go to</span> V.02</div>
         </Link>
-          {show &&  <div  className="v2 flex justify-center items-center rounded-full p-2 sm:h-9 sm:w-9 h-7 w-7 absolute top-4 left-4">
+          {/* {show &&  <div  className="v2 flex justify-center items-center rounded-full p-2 sm:h-9 sm:w-9 h-7 w-7 absolute top-4 left-4">
             <span className="animate-ping absolute inline-flex h-6 w-6 sm:h-8 sm:w-8 rounded-full bg-purple-400 opacity-75"></span>
             <span className="absolute inline-flex rounded-full h-7 w-7 sm:h-9 sm:w-9 bg-purple-500"></span>
               <h1 className="font-bold text-[.65em] text-center absolute -rotate-45">New</h1>
             </div>
-          }
+          } */}
         </div>
       </div>
       <div className="flex flex-col justify-center place-items-center gap-4 lg:gap-8 md:gap-4 sm:gap-2 sm:mt-0 mt-12">

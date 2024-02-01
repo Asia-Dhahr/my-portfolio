@@ -44,7 +44,7 @@ const WebDeveloper = () => {
                                 <a href="https://www.behance.net/gallery/134480207/Furniture-shop"><img className="lg:h-80 md:h-56 sm:h-40 h-44 object-contain p-1" src="web/furnilax.jpg" /></a>
                             </div>
                             <div className="flex justify-end items-center text-center mt-5 gap-6 ">
-                                <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://www.behance.net/elysiumelys"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-6 sm:w-6 h-6 w-6" src="web/behance.png" /></a>
+                                <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://www.behance.net/AsiaDh"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-6 sm:w-6 h-6 w-6" src="web/behance.png" /></a>
                                 <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-12 lg:w-40 md:h-11 md:w-36 sm:h-10 sm:w-36 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#4cea12] transition duration-300 "><a href="https://www.behance.net/gallery/134480207/Furniture-shop">View Case Study</a></button>
                             </div>
                         </section>
@@ -184,7 +184,7 @@ const WebDeveloper = () => {
 
                 <div className="flex justify-center items-center text-center lg:mt-28 md:mt-[118px]  sm:mt-16 mt-16 sm:mb-8 md:mr-12 gap-6 text-blue-50 pb-12">
                     <a className="transform motion-safe:hover:scale-125 transition ease-in-out delay-250" href="https://github.com/Asia-Dhahr"><img className="lg:h-8 lg:w-8 md:h-8 md:w-8 sm:h-7 sm:w-7 h-7 w-7" src="web/github.png" /></a>
-                    <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia dhaher.pdf">My Resume</a></button>
+                    <button className="span lg:text-base md:text-sm sm:text-sm text-sm font-semibold lg:h-10 lg:w-26 md:h-10 md:w-32 sm:h-10 sm:w-32 h-10 w-36 border-4 rounded shadow-lg hover:shadow-[#50bd29]/50 hover:text-[#67f334] transition duration-300 "><a href="/web/asia-resume.pdf">My Resume</a></button>
                 </div>
             </div>
         </div>
